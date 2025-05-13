@@ -175,8 +175,8 @@ switch (command) {
     task-cli add "Task Name"  ➝ Add a task
     task-cli list             ➝ List tasks
     task-cli list <status>    ➝ List tasks by status
-    task-cli done <task_id>   ➝ Mark task as completed
-    task-cli update <id> "New Description" ➝ Update a task
-    task-cli delete <id>      ➝ Delete a task
-    task-cli in-progress <id> ➝ Mark task as in-progress`);
+    task-cli done <id>/<Serial Number>   ➝ Mark task as completed
+    task-cli update <id>/<Serial Number> "New Description" ➝ Update a task
+    task-cli delete <id>/<Serial Number>      ➝ Delete a task
+    task-cli in-progress <id>/<Serial Number> ➝ Mark task as in-progress`);
 }
